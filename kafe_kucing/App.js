@@ -33,24 +33,27 @@ const App = () => {
 };
 
 const styles = StyleSheet.create({
-  container: { 
-    padding: 16, 
-    marginTop: 40,
-    backgroundColor: "rgb(255, 207, 163)",
+  container: {
+    padding: 20,
+    marginTop: 25,
+    backgroundColor: "#fffbeb",
     flexGrow: 1,
   },
-  title: { 
-    fontSize: 20, 
-    fontWeight: "bold", 
+  title: {
+    fontSize: 20,
+    color: "#261807ce",
+    fontWeight: "bold",
     marginBottom: 10,
-    textAlign: "center", 
-
+    textAlign: "center",
+    backgroundColor: "#c1711699",
+    padding: 15,
+    marginHorizontal: -16,
   },
   subtitle: {
-    fontSize: 16, 
+    fontSize: 16,
     fontWeight: "bold",
     marginTop: 15,
-    marginBottom: 5
+    marginBottom: 5,
   },
 });
 

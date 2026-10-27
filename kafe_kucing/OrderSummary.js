@@ -13,19 +13,20 @@ const OrderSummary = ({ totalCount }) => {
 };
 
 const styles = StyleSheet.create({
-    box: {
-        padding: 10,
-        marginBottom: 10
-    },
-    text: {
-        fontSize: 16,
-        fontWeight: "bold",
-    },  
-    textPromo: {
-        color: "green",
-        marginTop: 5,
-        fontWeight: "bold",
-    },
+  box: {
+    padding: 10,
+    marginBottom: 10,
+  },
+  text: {
+    fontSize: 16,
+    fontWeight: "bold",
+    color: "#261807ce",
+  },
+  textPromo: {
+    color: "#4e0909",
+    marginTop: 5,
+    fontWeight: "bold",
+  },
 });
 
 export default OrderSummary;

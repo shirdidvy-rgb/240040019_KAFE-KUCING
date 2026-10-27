@@ -21,33 +21,34 @@ const MenuItem = ({ nama, harga, onTambahPesanan }) => {
 };
 
 const styles = StyleSheet.create({
-    menuCard: {
-        borderWidth: 1,
-        borderColor: "#ffffff88",
-        padding: 12,
-        marginBottom: 10,
-        borderRadius: 6,
-        flexDirection: "row",
-        justifyContent: "space-between",
-        alignItems: "center",
-        backgroundColor: "#fff",
-    },
-    infoContainer: {
-        flex: 1,
-        marginRight: 10,
-    },
-    menutTitle: {
-        fontWeight: "bold",
-        fontSize: 16,
-    },
-    menuPrice: {
-        color: "#ffffff70",
-        marginVertical: 2,
-    },
-    qtyText: {
-        fontSize: 12,
-        color: "#000",
-    },
+  menuCard: {
+    borderWidth: 1,
+    borderColor: "#26180729",
+    padding: 15,
+    marginBottom: 12,
+    borderRadius: 10,
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+    backgroundColor: "#fff",
+  },
+  infoContainer: {
+    flex: 1,
+    marginRight: 10,
+  },
+  menutTitle: {
+    fontWeight: "bold",
+    fontSize: 16,
+    color: "#261807ce",
+  },
+  menuPrice: {
+    color: "#261807ce",
+    marginVertical: 2,
+  },
+  qtyText: {
+    fontSize: 12,
+    color: "#000",
+  },
 });
 
 export default MenuItem;
