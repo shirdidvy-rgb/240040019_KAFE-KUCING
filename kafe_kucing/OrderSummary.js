@@ -6,7 +6,7 @@ const OrderSummary = ({ totalCount }) => {
         <View style={styles.box}>
             <Text style={styles.text}>Total Item Dipesan: {totalCount}</Text>
             {totalCount >= 5 && (
-                <Text style={styles.textPromo}>Selamat! Anda MEndapatkan Diskon 10%</Text>
+                <Text style={styles.textPromo}>Selamat! Anda Mendapatkan Diskon 10%</Text>
             )}
         </View>
     );
